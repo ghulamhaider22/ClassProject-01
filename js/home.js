@@ -1,3 +1,7 @@
+const year = new Date().getFullYear()
+document.getElementById('year').innerHTML= year
+
+
 var cities = [
     "Faisalabad",
     "Lahore",
@@ -103,7 +107,7 @@ var cities = [
         }
     };
     // function greetUser(){
-      let name = " GHULAM HAIDER"
+      let userName = " GHULAM HAIDER"
       
       let now = new Date()
       let hour = now.getHours()
@@ -122,7 +126,7 @@ var cities = [
       else{
         message += "Night" 
       }
-     message = `<span>${message}!</span> <h3> ${name}</h3>`
+     message = `<span>${message}!</span> <h3> ${userName}</h3>`
     document.getElementById("navbarSupportedContent").innerHTML = message
   
    
